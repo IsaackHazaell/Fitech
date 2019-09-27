@@ -41,10 +41,10 @@ int main()
 
     // Multiplicación
 
-    void multiplicacion (a,b){
+    void multiplicacion (float a,float b){
         float result = a * b;
         cout<<result<<endl;
-    }
+    }   
     // División
     
     return 0;
