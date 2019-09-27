@@ -1,5 +1,14 @@
 #include <iostream>
-#include <studio.h>
+#include <stdio.h>
+
+using namespace std;
+
+//Suma
+int suma(float a,float b){
+    float suma;
+    suma = a+b;
+return suma;
+}
 
 int main()
 {
