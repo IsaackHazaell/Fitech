@@ -3,14 +3,39 @@
 
 int main()
 {
-    //Menu
+    int opc;
+    cout<<"Menu"<<endl;
+    cout<<"1. Suma"<<endl;
+    cout<<"2. Resta"<<endl;
+    cout<<"3. Multi"<<endl;
+    cout<<"4. Div"<<endl;
+    cin<<opc;
+    if(opc == 1)
+    {
+
+    }
+    else if(opc == 2)
+    {
+
+    }
+    else if(opc == 3)
+    {
+
+    }
+    else if(opc == 4)
+    {
+
+    }
+    else{
+        cout << "No elegiste bien" << endl;
+    }
 
     // Suma
 
     // Resta
 
     // Multiplicación
-    
+
     // División
     
 }
