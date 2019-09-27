@@ -40,14 +40,11 @@ int main()
     cout<<"el resultado de la resta es: "<<resta (a,b)<<endl;
 
     // Multiplicación
-<<<<<<< HEAD
 
-=======
     void multiplicacion (a,b){
         float result = a * b;
         cout<<result<<endl;
     }
->>>>>>> a698ca67e19430b08c516d856983036368b48f16
     // División
     
     return 0;
