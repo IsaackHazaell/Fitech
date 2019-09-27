@@ -1,6 +1,9 @@
 #include <iostream>
 #include <studio.h>
 
+int resta (int a, int b){
+    return a-b;
+}
 int main()
 {
     int opc;
@@ -33,6 +36,8 @@ int main()
     // Suma
 
     // Resta
+
+    cout<<"el resultado de la resta es: "<<resta (a,b)<<endl;
 
     // Multiplicación
 
