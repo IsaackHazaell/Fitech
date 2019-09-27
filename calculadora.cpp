@@ -1,6 +1,10 @@
 #include <iostream>
 #include <studio.h>
 
+void multiplicacion (float a,float b){
+        float result = a * b;
+        cout<<result<<endl;
+    }
 int main()
 {
     //Menu
@@ -10,10 +14,7 @@ int main()
     // Resta
 
     // Multiplicación
-    void multiplicacion (a,b){
-        float result = a * b;
-        cout<<result<<endl;
-    }
+    
     // División
     
     return 0;
