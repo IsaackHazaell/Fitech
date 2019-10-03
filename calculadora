@@ -3,23 +3,72 @@
 
 using namespace std;
 
-//Suma
-int suma(float a,float b){
-    float suma;
-    suma = a+b;
-return suma;
+
+void suma(float a,float b){
+    cout<<"\nEl resultado es: "<<(a+b)<<endl;
+}
+void resta(float a,float b){
+    cout<<"\nEl resultado es: "<<(a-b)<<endl;
+}
+void multi(float a,float b){
+    cout<<"\nEl resultado es: "<<(a*b)<<endl;
+}
+void divi(float a,float b){
+    cout<<"\nEl resultado es: "<<(a/b)<<endl;
 }
 
-int main()
-{
-    //Menu
-
-    // Suma
-
-    // Resta
-
-    // Multiplicación
+int main() {
+    int opcion;
+    float a,b;
     
-    // División
-    
+    while (1) {
+        cout<<endl<<"--- MENÚ ---"<<endl;
+        cout<<"1.- Suma"<<endl;
+        cout<<"2.- Resta"<<endl;
+        cout<<"3.- Multiplicación"<<endl;
+        cout<<"4.- División"<<endl;
+        cout<<"5.- Salir"<<endl;
+        cout<<"Opción: ";
+        cin>>opcion;
+        cout<<"\n\n";
+        
+        
+        switch (opcion) {
+            case 1:
+                cout<<"Ingrese el 1er. número: ";
+                cin>>a;
+                cout<<"Ingrese el 1er. número: ";
+                cin>>b;
+                suma(a,b);
+                break;
+            case 2:
+                cout<<"Ingrese el 1er. número: ";
+                cin>>a;
+                cout<<"Ingrese el 1er. número: ";
+                cin>>b;
+                resta(a,b);
+                break;
+            case 3:
+                cout<<"Ingrese el 1er. número: ";
+                cin>>a;
+                cout<<"Ingrese el 1er. número: ";
+                cin>>b;
+                multi(a,b);
+                break;
+            case 4:
+                cout<<"Ingrese el 1er. número: ";
+                cin>>a;
+                cout<<"Ingrese el 1er. número: ";
+                cin>>b;
+                divi(a,b);
+                break;
+            case 5:
+                return 1;
+                break;
+            default:
+                cout<<"No existe la opción";
+                break;
+        }
+    }
+    return 0;
 }
